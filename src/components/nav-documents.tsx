@@ -138,8 +138,8 @@ export function NavDocuments({
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent className="max-w-6xl w-[90vw] h-[90vh] grid grid-rows-[auto_1fr] p-0">
-          <DialogHeader className="p-6 pb-2 border-b">
-            <DialogTitle className="text-lg font-semibold">
+          <DialogHeader className="p-3 border-b">
+            <DialogTitle className="text-lg font-semibold text-black">
               {selectedPdf &&
                 documents.find((doc) => doc.pdfPath === selectedPdf)?.name}
             </DialogTitle>

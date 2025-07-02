@@ -110,6 +110,12 @@ const data = {
       pdfPath: "/pdfs/LPE1 NEW -  7 Blake St-JLC2025051418224568.pdf",
       icon: FileText,
     },
+    {
+      name: "1708.08021v2.pdf",
+      url: "/documents/1708.08021v2",
+      pdfPath: "/pdfs/1708.08021v2.pdf",
+      icon: FileText,
+    },
   ],
 };
 
